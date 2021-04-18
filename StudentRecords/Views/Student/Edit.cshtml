@@ -4,13 +4,13 @@
     ViewBag.Title = "Edit";
 }
 
-<h2>Edit Student record</h2>
+<h2 style="text-align:center">Edit Student record</h2>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
     $(document).ready(function () {
         $("#genderId").val('@ViewBag.GenderId');
     });
-</script>>
+</script>
 
 @using (Html.BeginForm())
 {
